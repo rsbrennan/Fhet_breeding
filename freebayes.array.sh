@@ -17,11 +17,11 @@ my_bamtools=~/bin/bamtools/bin/bamtools-2.4.0
 scaf=$(cat ~/breeding/scripts/probe_scaffolds.txt | awk 'NR=='$SLURM_ARRAY_TASK_ID'')
 echo $scaf
 
-endpos=$(expr $(grep -P "$scaf\t" ~/reference/heteroclitus_000826765.1_3.0.2_genomic.fa.fai | cut -f 2) - 1)
-echo $endpos
+#endpos=$(expr $(grep -P "$scaf\t" ~/reference/heteroclitus_000826765.1_3.0.2_genomic.fa.fai | cut -f 2) - 1)
+#echo $endpos
 
-region=$scaf:1..$endpos
-echo $region
+#region=$scaf:1..$endpos
+#echo $region
 
 outfile=$scaf.vcf
 
@@ -31,7 +31,7 @@ find ~/breeding/processed_data/aligned/all -type f > ~/breeding/scripts/bam.all.
 vcf_out=~/breeding/variants/all
 bam_list=~/breeding/scripts/bam.all.list
 
-$my_bamtools merge -list $bam_list -region $region | \
+$my_bamtools merge -list $bam_list -region $scaf | \
 $my_bamtools filter -in stdin -mapQuality '>30' -isProperPair true | \
 $my_freebayes -f $bwagenind --use-best-n-alleles 4 --pooled-discrete --stdin \
 > $vcf_out/$outfile

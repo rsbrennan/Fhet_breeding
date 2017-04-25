@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -D /home/rsbrenna/breeding/slurm-log/array/
+#SBATCH -D /home/rsbrenna/breeding/slurm-log/array/bwa/
 #SBATCH -o bwa.align-stdout-%j.txt
 #SBATCH -e bwa.align-stderr-%j.txt
 #SBATCH -J bwa.align

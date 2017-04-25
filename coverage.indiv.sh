@@ -12,12 +12,8 @@ my_samtools=~/bin/samtools-1.3.1/samtools
 
 cd ~/breeding/processed_data/aligned/all
 
-for indiv in $( ls )
-
-do {
-
 	find *bam | parallel \
-	'bedtools coverage -abam {} \
+	'samtools view -bF 0x400 {} |\
+	bedtools coverage -abam stdin \
 	-b ~/breeding/scripts/probes.20pos.bed > ~/breeding/summary_files/coverage/{}.depth.txt'
-  }
-done
+
