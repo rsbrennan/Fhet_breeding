@@ -10,23 +10,20 @@ cd ~/breeding/variants/
 
 my_bedtools=~/bin/bedtools2/bin/bedtools
 
-for i in $(ls *.vcf.gz | cut -f 1 -d "." | sort | uniq)
 
-do {
-
-	~/bin/vcftools/bin/vcftools --gzvcf ~/breeding/variants/${i}.vcf.gz \
-	--recode --recode-INFO-all --maf 0.05 \
+	~/bin/vcftools/bin/vcftools --gzvcf ~/breeding/variants/all.vcf.gz \
+	--maf 0.01 \
+	--recode --recode-INFO-all \
 	--max-alleles 2 --min-alleles 2 \
 	--max-meanDP 110 \
 	--min-meanDP 10 \
 	--minGQ 30 \
 	--minQ 20 \
-	--max-missing 0.9 \
-	--remove ~/breeding/scripts/lists/exclude.${i}.txt \
+	--max-missing 0.85 \
 	--remove-indels \
+	--keep ~/breeding/scripts/lists/all.redo.list \
 	--stdout |\
-	bgzip > ~/breeding/variants/${i}.filter1.vcf.gz
+	bgzip > ~/breeding/variants/all.final.vcf.gz
 
-	tabix -f -p vcf ~/breeding/variants/${i}.filter1.vcf.gz
-}
-done
+	tabix -p vcf -f ~/breeding/variants/all.final.vcf.gz
+
