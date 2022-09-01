@@ -2,7 +2,7 @@
 #SBATCH -J array_job
 #SBATCH -o /home/rsbrenna/breeding/slurm-log/array/all/array_job_out_%A_%a.txt
 #SBATCH -e /home/rsbrenna/breeding/slurm-log/array/all/array_job_err_%A_%a.txt
-#SBATCH --array=1-625%40
+#SBATCH --array=1-625%100
 #SBATCH -p high
 #SBATCH --mem=12000
 ###### number of nodes

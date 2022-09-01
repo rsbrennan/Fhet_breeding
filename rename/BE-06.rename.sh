@@ -55,9 +55,9 @@ rename 's/_RA_GGCAAGACTA.fastq/FW-Combo1-054_RA.fastq/' _RA_GGCAAGACTA.fastq
 rename 's/_RA_GGACAGCAGA.fastq/FW-Combo1-055_RA.fastq/' _RA_GGACAGCAGA.fastq
 rename 's/_RA_GGCAGATCTG.fastq/FW-Combo1-056_RA.fastq/' _RA_GGCAGATCTG.fastq
 rename 's/_RA_GGGAACAGGC.fastq/FW-Combo1-057_RA.fastq/' _RA_GGGAACAGGC.fastq
-rename 's/_RA_GGATAGCGAC.fastq/FW-Combo2-97_RA.fastq/' _RA_GGATAGCGAC.fastq
-rename 's/_RA_GGTTCACGCA.fastq/FW-Combo2-98_RA.fastq/' _RA_GGTTCACGCA.fastq
-rename 's/_RA_GGGTACGCAA.fastq/FW-Combo2-99_RA.fastq/' _RA_GGGTACGCAA.fastq
+rename 's/_RA_GGATAGCGAC.fastq/FW-Combo2-097_RA.fastq/' _RA_GGATAGCGAC.fastq
+rename 's/_RA_GGTTCACGCA.fastq/FW-Combo2-098_RA.fastq/' _RA_GGTTCACGCA.fastq
+rename 's/_RA_GGGTACGCAA.fastq/FW-Combo2-099_RA.fastq/' _RA_GGGTACGCAA.fastq
 rename 's/_RA_GGCTGAGCCA.fastq/FW-Combo2-100_RA.fastq/' _RA_GGCTGAGCCA.fastq
 rename 's/_RA_GGCAATGGAA.fastq/FW-Combo2-101_RA.fastq/' _RA_GGCAATGGAA.fastq
 rename 's/_RA_GGACCTCCAA.fastq/FW-Combo2-102_RA.fastq/' _RA_GGACCTCCAA.fastq
@@ -151,9 +151,9 @@ rename 's/_RB_GGCAAGACTA.fastq/FW-Combo1-054_RB.fastq/' _RB_GGCAAGACTA.fastq
 rename 's/_RB_GGACAGCAGA.fastq/FW-Combo1-055_RB.fastq/' _RB_GGACAGCAGA.fastq
 rename 's/_RB_GGCAGATCTG.fastq/FW-Combo1-056_RB.fastq/' _RB_GGCAGATCTG.fastq
 rename 's/_RB_GGGAACAGGC.fastq/FW-Combo1-057_RB.fastq/' _RB_GGGAACAGGC.fastq
-rename 's/_RB_GGATAGCGAC.fastq/FW-Combo2-97_RB.fastq/' _RB_GGATAGCGAC.fastq
-rename 's/_RB_GGTTCACGCA.fastq/FW-Combo2-98_RB.fastq/' _RB_GGTTCACGCA.fastq
-rename 's/_RB_GGGTACGCAA.fastq/FW-Combo2-99_RB.fastq/' _RB_GGGTACGCAA.fastq
+rename 's/_RB_GGATAGCGAC.fastq/FW-Combo2-097_RB.fastq/' _RB_GGATAGCGAC.fastq
+rename 's/_RB_GGTTCACGCA.fastq/FW-Combo2-098_RB.fastq/' _RB_GGTTCACGCA.fastq
+rename 's/_RB_GGGTACGCAA.fastq/FW-Combo2-099_RB.fastq/' _RB_GGGTACGCAA.fastq
 rename 's/_RB_GGCTGAGCCA.fastq/FW-Combo2-100_RB.fastq/' _RB_GGCTGAGCCA.fastq
 rename 's/_RB_GGCAATGGAA.fastq/FW-Combo2-101_RB.fastq/' _RB_GGCAATGGAA.fastq
 rename 's/_RB_GGACCTCCAA.fastq/FW-Combo2-102_RB.fastq/' _RB_GGACCTCCAA.fastq

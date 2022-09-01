@@ -8,8 +8,8 @@
 
 cd ~/breeding/variants
 
-for i in BW-Combo1  BW-Combo2  BW-Combo3  BW-Combo4  BW-Combo5  FW-Combo1  FW-Combo2  FW-Combo4  FW-Combo5;
-
+for i in BW-Combo1  BW-Combo2  BW-Combo3  BW-Combo4  BW-Combo5  FW-Combo1  FW-Combo2  FW-Combo4  FW-Combo5 all;
+#for i in all;
 do {
 	cd ~/breeding/variants/$i
 
