@@ -1,8 +1,10 @@
-## Hybrid incompatibilities and mate choice in F. het
+# F. heteroclitus hybrid incompatabilities and mate choice
 
-Various notes, code, etc. 
+This repository holds scripts and data for the manuscript `Evidence of prezygotic isolation, but not assortative mating, between locally adapted populations of Fundulus heteroclitus across a salinity gradient`. 
 
-### Experimental outline
+Raw sequencing data can be found at NCBI bioproject PRJNA872341.
 
-- Mate choice experiment: Spring 2015
-- Hybrid incompatibilities: Summer 2016
+Other data can be found in this repository under `data`
+
+See `analysis.md` for a detailed overview of the scripts used for the analysis. 
+
