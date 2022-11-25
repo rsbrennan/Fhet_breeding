@@ -23,10 +23,9 @@ And raw data is found in: `data/environmental_params.csv`
 
 With analysis found: `environmental_params.R`
 
+# Genetic analysis
 
 if you're replicating this analysis, you can skip down to `Align to genome`. These initial steps are just processing the raw data.
-
-# Genetic analysis
 
 downloaded on 2017-03-28. `download.sh`
 
