@@ -10,6 +10,20 @@ Analysis of mate choice.
 `mate_choice.R`
 
 
+## Analyze environmental parameters
+
+All data from https://eyesonthebay.dnr.maryland.gov/bay_cond/LongTermData.cfm
+
+The stations used are: 
+
+BW population, Point lookout: LE2.3	Lower Potomac River	Point Lookout	38.0215	-76.3477	1984 - 2022
+FW population:, Piscataway Park:  TF2.1	Middle Potomac River	Off Piscataway	38.7065	-77.0486	1986 - 2022
+
+And raw data is found in: `data/environmental_params.csv`
+
+With analysis found: `environmental_params.R`
+
+
 if you're replicating this analysis, you can skip down to `Align to genome`. These initial steps are just processing the raw data.
 
 # Genetic analysis
