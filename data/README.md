@@ -8,7 +8,7 @@ Capture probe information:
 Variant data:
 - `all.final.vcf.gz`: filtered, all individuals.
 
-environmental_params.csv
+`environmental_params.csv`
 - environmental data used for supplemental figures 1 and 2
 
 Reproduction data:
